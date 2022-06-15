@@ -19,7 +19,7 @@ public abstract class DAO {
     
     private final String USER = "root";
     private final String PASSWORD = "root";
-    private final String DATABASE = "tienda";
+    private final String DATABASE = "estancias_exterior";  //Base de datos!!!!
     private final String DRIVER = "com.mysql.jdbc.Driver";
 
     protected void conectarBase() throws ClassNotFoundException, SQLException {
